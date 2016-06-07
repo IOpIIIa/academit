@@ -1,20 +1,21 @@
+package ru.academit.peretyagin.shape;
 
-class Circle implements Shape {
+public class Circle implements Shape {
 
     private double radius;
 
-    Circle(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 
     @Override
     public double getWidth() {
-        return radius;
+        return radius * 2;
     }
 
     @Override
     public double getHeight() {
-        return radius;
+        return radius * 2;
     }
 
     @Override

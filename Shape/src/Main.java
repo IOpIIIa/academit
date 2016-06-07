@@ -1,3 +1,7 @@
+import ru.academit.peretyagin.shape.Circle;
+import ru.academit.peretyagin.shape.Rectangle;
+import ru.academit.peretyagin.shape.Square;
+import ru.academit.peretyagin.shape.Triangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +22,7 @@ public class Main {
         System.out.println();
 
         Circle circle = new Circle(3);
-        System.out.printf("%s\n%s%.5f\n%s%.5f\n%s%.5f\n", "Окружность:", "Ширина = ", circle.getWidth(), "Высота = ", circle.getHeight(), "Площадь = ", circle.getArea());
+        System.out.printf("%s\n%s%.5f\n%s%.5f\n%s%.5f\n", "Окружность:", "Диаметр = ", circle.getWidth(), "Диаметр = ", circle.getHeight(), "Площадь = ", circle.getArea());
 
     }
 }

@@ -1,8 +1,10 @@
-class Square implements Shape {
+package ru.academit.peretyagin.shape;
+
+public class Square implements Shape {
 
     private double sideLength;
 
-    Square(double sideLength) {
+    public Square(double sideLength) {
         this.sideLength = sideLength;
     }
 
