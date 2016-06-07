@@ -10,11 +10,11 @@ public class Range {
         this.to = to;
     }
 
-    public double getLengthInterval() {
-        return Math.abs(this.from - this.to);
+    public double getLength() {
+        return this.from - this.to;
     }
 
-    public boolean isInside() {
-        return getLengthInterval() >= from && getLengthInterval() <= to;
+    public boolean isInside(double intervalTest) {
+        return intervalTest >= from && intervalTest <= to;
     }
 }
