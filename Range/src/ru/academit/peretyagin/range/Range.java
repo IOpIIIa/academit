@@ -11,7 +11,7 @@ public class Range {
     }
 
     public double getLength() {
-        return this.from - this.to;
+        return this.to - this.from;
     }
 
     public boolean isInside(double intervalTest) {
